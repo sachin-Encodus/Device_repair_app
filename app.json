@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Realback",
+    "slug": "Realback",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/realback.png",
+    "splash": {
+      "image": "./assets/realback.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+       "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/realback.png",
+        "backgroundColor": "#FFFFFF"
+      },
+       "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/realback.png"
+    }
+  }
+}
